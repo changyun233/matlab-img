@@ -1,0 +1,5 @@
+function [dct_AC_mat] = InverseZiZag(dct_AC_seq)
+    dct_AC_mat = zeros(8,8);
+    dct_AC_mat = [0,dct_AC_seq(1),dct_AC_seq(5),dct_AC_seq(6),dct_AC_seq(14),dct_AC_seq(15),dct_AC_seq(27),dct_AC_seq(28);dct_AC_seq(2),dct_AC_seq(4),dct_AC_seq(7),dct_AC_seq(13),dct_AC_seq(16),dct_AC_seq(26),dct_AC_seq(29),dct_AC_seq(42);dct_AC_seq(3),dct_AC_seq(8),dct_AC_seq(12),dct_AC_seq(17),dct_AC_seq(25),dct_AC_seq(30),dct_AC_seq(41),dct_AC_seq(43);dct_AC_seq(9),dct_AC_seq(11),dct_AC_seq(18),dct_AC_seq(24),dct_AC_seq(31),dct_AC_seq(40),dct_AC_seq(44),dct_AC_seq(53);dct_AC_seq(10),dct_AC_seq(19),dct_AC_seq(23),dct_AC_seq(32),dct_AC_seq(39),dct_AC_seq(45),dct_AC_seq(52),dct_AC_seq(54);dct_AC_seq(20),dct_AC_seq(22),dct_AC_seq(33),dct_AC_seq(38),dct_AC_seq(46),dct_AC_seq(51),dct_AC_seq(55),dct_AC_seq(60);dct_AC_seq(21),dct_AC_seq(34),dct_AC_seq(37),dct_AC_seq(47),dct_AC_seq(50),dct_AC_seq(56),dct_AC_seq(59),dct_AC_seq(61);dct_AC_seq(35),dct_AC_seq(36),dct_AC_seq(48),dct_AC_seq(49),dct_AC_seq(57),dct_AC_seq(58),dct_AC_seq(62),dct_AC_seq(63)];
+end
+

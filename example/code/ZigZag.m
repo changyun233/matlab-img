@@ -1,0 +1,4 @@
+function [seq_AC] = ZigZag(mat_AC)
+    seq_AC = [mat_AC(1,2),mat_AC(2,1),mat_AC(3,1),mat_AC(2,2),mat_AC(1,3),mat_AC(1,4),mat_AC(2,3),mat_AC(3,2),mat_AC(4,1),mat_AC(5,1),mat_AC(4,2),mat_AC(3,3),mat_AC(2,4),mat_AC(1,5),mat_AC(1,6),mat_AC(2,5),mat_AC(3,4),mat_AC(4,3),mat_AC(5,2),mat_AC(6,1),mat_AC(7,1),mat_AC(6,2),mat_AC(5,3),mat_AC(4,4),mat_AC(3,5),mat_AC(2,6),mat_AC(1,7),mat_AC(1,8),mat_AC(2,7),mat_AC(3,6),mat_AC(4,5),mat_AC(5,4),mat_AC(6,3),mat_AC(7,2),mat_AC(8,1),mat_AC(8,2),mat_AC(7,3),mat_AC(6,4),mat_AC(5,5),mat_AC(4,6),mat_AC(3,7),mat_AC(2,8),mat_AC(3,8),mat_AC(4,7),mat_AC(5,6),mat_AC(6,5),mat_AC(7,4),mat_AC(8,3),mat_AC(8,4),mat_AC(7,5),mat_AC(6,6),mat_AC(5,7),mat_AC(4,8),mat_AC(5,8),mat_AC(6,7),mat_AC(7,6),mat_AC(8,5),mat_AC(8,6),mat_AC(7,7),mat_AC(6,8),mat_AC(7,8),mat_AC(8,7),mat_AC(8,8)];
+end
+
