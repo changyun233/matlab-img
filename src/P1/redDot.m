@@ -1,5 +1,4 @@
 function output = redDot(input)
-    load . ./ res / hall.mat
     inputProc = double(input);
     r = min(size(input(:, :, 1))) / 2;
     sizee = size(inputProc);

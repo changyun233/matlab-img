@@ -1,4 +1,4 @@
-load ../res/hall.mat
+load ../../res/hall.mat;
 hall_color = double(hall_color);
 sizee = size(hall_color);
 gridLength = 18;
